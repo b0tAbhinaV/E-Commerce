@@ -1,0 +1,27 @@
+/* Prescription.css */
+
+.prescription-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    height: 100vh;
+    background-color: rgb(190,204,231); 
+    /* padding-top: 30vh;  */
+    margin-top: 30vh;
+}
+
+.upload-button {
+    padding: 15px 30px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(66,98,173);
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.upload-button:hover {
+    background-color: #003c7d;
+}

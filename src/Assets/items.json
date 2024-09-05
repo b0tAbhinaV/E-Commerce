@@ -1,0 +1,124 @@
+[
+    {
+      "id": 1,
+      "name": "Maxvida HPHF High Protein Supplement",
+      "oldPrice": 15.99,
+      "newPrice": 10.99,
+      "category": "healthcare",
+      "image": "hp1.png"
+    },
+    {
+      "id": 2,
+      "name": "Protinex High Quality Protein",
+      "oldPrice": 39.99,
+      "newPrice": 29.99,
+      "category": "healthcare",
+      "image": "hp2.png"
+    },
+    {
+        "id": 3,
+        "name": "RiteBite Max Protein",
+        "oldPrice": 39.99,
+        "newPrice": 29.99,
+        "category": "healthcare",
+        "image": "hp3.png"
+    },
+    {
+        "id": 4,
+        "name": "Endura Mass Weight Gainer",
+        "oldPrice": 39.99,
+        "newPrice": 29.99,
+        "category": "healthcare",
+        "image": "hp4.png"
+    },
+    {
+        "id": 5,
+        "name": "Fast&Up Reload with Instant Electrolytes",
+        "oldPrice": 39.99,
+        "newPrice": 29.99,
+        "category": "healthcare",
+        "image": "hp5.png"
+    },
+    {
+        "id": 6,
+        "name": "Revital H Woman Tablet",
+        "oldPrice": 39.99,
+        "newPrice": 29.99,
+        "category": "multivitamins",
+        "image": "mv1.png"
+    },
+    {
+        "id": 7,
+        "name": "Zingavita Multivitamins Softgels for Men",
+        "oldPrice": 39.99,
+        "newPrice": 29.99,
+        "category": "multivitamins",
+        "image": "mv2.png"
+    },
+    {
+        "id": 8,
+        "name": "Tata 1mg Senior 50+ Multivitamin",
+        "oldPrice": 39.99,
+        "newPrice": 29.99,
+        "category": "multivitamins",
+        "image": "mv3.png"
+    },
+    {
+        "id": 9,
+        "name": "Tata 1mg Women's Multivitamin",
+        "oldPrice": 39.99,
+        "newPrice": 29.99,
+        "category": "multivitamins",
+        "image": "mv4.png"
+    },
+    {
+        "id": 10,
+        "name": "Zincovit tablet with Multivitamin",
+        "oldPrice": 39.99,
+        "newPrice": 29.99,
+        "category": "multivitamins",
+        "image": "mv5.png"
+    },
+    {
+        "id": 11,
+        "name": "Accu-Chek Active Blood Glucometer Kit",
+        "oldPrice": 39.99,
+        "newPrice": 29.99,
+        "category": "diabetes",
+        "image": "d1.png"
+    },
+    {
+        "id": 12,
+        "name": "Contour TS Blood Glucose Test Strip",
+        "oldPrice": 39.99,
+        "newPrice": 29.99,
+        "category": "diabetes",
+        "image": "d2.png"
+    },
+    {
+        "id": 13,
+        "name": "SugarFree Gold Low Calorie Aspartame",
+        "oldPrice": 39.99,
+        "newPrice": 29.99,
+        "category": "diabetes",
+        "image": "d3.png"
+    },
+    {
+        "id": 14,
+        "name": "Ortho Slippers",
+        "oldPrice": 39.99,
+        "newPrice": 29.99,
+        "category": "diabetes",
+        "image": "d4.png"
+    },
+    {
+      "id": 15,
+      "name": "Kapiva Diafree Juice for Diabetes",
+      "oldPrice": 25.00,
+      "newPrice": 20.00,
+      "category": "diabetes",
+      "image": "d5.png"
+    }
+
+  ]
+  

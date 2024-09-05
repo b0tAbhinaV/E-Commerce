@@ -1,0 +1,107 @@
+/* AllItems.css */
+
+.all-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure the button stays at the bottom */
+    /* height: 100%;  */
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-name {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+    background-color: white;
+}
+
+.product-prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+    background-color: white;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    background-color: white;
+}
+
+.new-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e60000;
+    background-color: white;
+}
+
+.product-discount {
+    font-size: 16px;
+    color: #28a745;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.add-to-cart-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: auto; /* Push the button to the bottom */
+}
+
+.add-to-cart-button:hover {
+    background-color: #0056b3;
+}
+.add-to-cart::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: rgba(255, 255, 255, 0.5);
+    transition: width 0.3s, height 0.3s, top 0.3s, left 0.3s;
+    border-radius: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+.add-to-cart:active::after {
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+}

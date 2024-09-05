@@ -1,0 +1,65 @@
+/* Homepage.css */
+* {
+    background-color: rgb(190, 204, 231);
+}
+
+.homepage-container {
+    display: flex;
+    justify-content: space-between; /* Space between content and image */
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align content to the left */
+    padding-right: 0px; /* Add some space between content and image */
+}
+
+.description {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 5px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(67, 67, 67, 0.7); 
+    background-color: rgb(66, 98, 173);
+    border-radius: 15px;
+    padding: 30px 20px;
+}
+
+.all-items-button {
+    padding: 15px 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(66, 98, 173);
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.all-items-button:hover {
+    background-color: rgb(66, 98, 173);
+    color: white;
+}
+
+.image {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 800px;
+}
+
+.homeImage {
+    max-height: 100vh;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add some styling to the image */
+}
